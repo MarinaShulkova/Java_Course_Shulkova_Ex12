@@ -1,13 +1,13 @@
 public class Payments {
     String FIO;
     String type_payment;
-    int summ;
+    int sum;
     int age;
 
-    public Payments(String FIO, String type_payment, int summ, int age) {
+    public Payments(String FIO, String type_payment, int sum, int age) {
         this.FIO = FIO;
         this.type_payment = type_payment;
-        this.summ = summ;
+        this.sum = sum;
         this.age = age;
     }
 
@@ -27,12 +27,12 @@ public class Payments {
         this.type_payment = type_payment;
     }
 
-    public int getSumm() {
-        return summ;
+    public int getSum() {
+        return sum;
     }
 
-    public void setSumm(int summ) {
-        this.summ = summ;
+    public void setSumm(int sum) {
+        this.sum = sum;
     }
 
     public int getAge() {
@@ -48,7 +48,7 @@ public class Payments {
         return "Payments{" +
                 "FIO='" + FIO + '\'' +
                 ", type_payment='" + type_payment + '\'' +
-                ", summ=" + summ +
+                ", sum=" + sum +
                 ", age=" + age +
                 '}';
     }
